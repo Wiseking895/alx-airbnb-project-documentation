@@ -1,4 +1,4 @@
-# Airbnb Clone – User Stories (Based on Use Case Diagram)
+# Airbnb Clone – User Stories
 
 ## 🧩 Overview
 
@@ -81,5 +81,3 @@ so that I can **ensure the platform operates securely and fairly**.
 
 These user stories provide a functional translation of the **Airbnb Clone Use Case Diagram** into real-world requirements.  
 They guide backend and frontend developers in implementing each feature with the user’s goal in mind — ensuring usability, security, and scalability.
-
----
