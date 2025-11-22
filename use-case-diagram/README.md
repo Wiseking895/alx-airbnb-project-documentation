@@ -1,12 +1,14 @@
 # Airbnb Clone – Use Case Diagram
 
 ## 🧩 Overview
+
 This document presents the **Use Case Diagram** for the **Airbnb Clone** backend system.  
 The diagram visualizes how users (Guests, Hosts, and Admins) interact with the system to perform various operations such as user registration, property management, booking, and payments.
 
 ---
 
 ## 🎭 Actors
+
 The system involves the following primary actors:
 
 1. **Guest**
@@ -21,7 +23,9 @@ The system involves the following primary actors:
 ---
 
 ## ⚙️ Use Cases
+
 ### 1. **User Management**
+
 - **User Registration/Login:**  
   Guests and hosts can create accounts and log in securely.  
   Authentication is handled using JWT tokens.
@@ -32,6 +36,7 @@ The system involves the following primary actors:
 ---
 
 ### 2. **Property Management (Host)**
+
 - **Add/Edit/Delete Property Listings:**  
   Hosts can create, modify, or remove their property listings.
   
@@ -41,6 +46,7 @@ The system involves the following primary actors:
 ---
 
 ### 3. **Search and Booking (Guest)**
+
 - **Search Listings:**  
   Guests can search properties by location, price, date, and amenities.
 
@@ -53,6 +59,7 @@ The system involves the following primary actors:
 ---
 
 ### 4. **Payments**
+
 - **Process Payments:**  
   Secure payments are handled through third-party gateways like Stripe or PayPal.
 
@@ -62,6 +69,7 @@ The system involves the following primary actors:
 ---
 
 ### 5. **Reviews and Ratings**
+
 - **Leave Review:**  
   Guests can review and rate properties after completed stays.
 
@@ -71,12 +79,14 @@ The system involves the following primary actors:
 ---
 
 ### 6. **Notifications**
+
 - **Email & In-App Notifications:**  
   Sent for booking confirmations, cancellations, and payment updates.
 
 ---
 
 ### 7. **Admin Management**
+
 - **Monitor System Activity:**  
   Admins can view and manage all users, properties, bookings, and payments.
 
@@ -86,6 +96,7 @@ The system involves the following primary actors:
 ---
 
 ## 🗂️ Diagram Preview
+
 Below is the visual representation of the use case interactions:
 
 ![Use Case Diagram](./A_use_case_diagram_in_UML_(Unified_Modeling_Langua.png)
@@ -93,7 +104,9 @@ Below is the visual representation of the use case interactions:
 ---
 
 ## 🧠 Summary
+
 The Use Case Diagram provides a high-level overview of how the **Airbnb Clone system** facilitates interactions among:
+
 - **Guests** (booking and searching),
 - **Hosts** (managing listings and receiving payments),
 - **Admins** (system oversight).
